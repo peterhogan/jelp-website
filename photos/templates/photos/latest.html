@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Latest Photos</title>
+<link rel="stylesheet" type="text/css" href="/static/photos/css/style1.css">
+<style>
+body {
+	text-align: left;
+}
+</style>
+</head>
+
+<body>
+<div class='logout'><a class="header" href="{% url 'photos:logout' %}">Logout</a></div>
+
+<div class='header'>
+<ul class='bar'>
+	<li class="header">Logged in as {{ username }}</li>
+	<li class='header'><a class='header' href="{% url 'photos:home' %}">Home</a></li>
+        <li class='header'>></li>
+	<li class='header'><a class='header' href="{% url 'photos:latest' %}">Latest</a></li>
+</ul>
+</div>
+
+<div class='bar'>
+<ul class="bar">
+	<li class="bar"><a class="bar" href="{% url 'photos:home' %}">Home</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:years' %}">Years</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:random' %}">Random</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:latest' %}">Latest</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:logout' %}">Logout</a></li>
+</ul>
+</div>
+
+<h4>Latest Photos</h4>
+<p>These are the 20 most recently taken photos.
+</p>
+<div class='photo'>
+{% for title,year,month in latest_photos %}
+        <a class='on_bg' href='{% url "photos:photo_detail" year month title %}'><img src='/static/photos/thumbnails/{{ title }}' ></a>
+{% endfor %}
+</div>
+
+</body>
+
+</html>

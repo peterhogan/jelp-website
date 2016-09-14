@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(/static/photos/fonts/HelveticaNeue-Thin.otf)
+}
+h1,h2,h3,h4,h5,h6 {
+	background-color: #F9F3E3;
+}
+ul.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a.bar:link, a.bar:visited {
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    color: #F9F3E3;
+    background-color: #62868D;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.bar:hover, a.bar:active {
+    background-color: #D78B7D;
+}
+div.logout {
+	position: fixed;
+	top: 2px;
+	right: 1px;
+	z-index: 2;
+	border: 1px solid #462066;
+}
+div.bar {
+	background-color: #62868D;
+	position: fixed;
+	top: 21px;
+	left: 0;
+	bottom: 0;
+	border: 1px solid #462066;
+}
+div.header {
+	background-color: #62868D;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 20px;
+	border: 1px solid #462066;
+	text-align: left;
+}
+li.header {
+	display: inline;
+}
+a.header {
+	color: #F9F3E3;
+	font-weight: bold;
+	background-color: #62868D;
+	text-align: left;
+	padding: 2px;
+}
+p, a.on_bg, a.on_bg:visited, a.on_bg:active, a.on_bg:link {
+	color: #36383B;
+}
+a.on_bg:hover {
+	color: #D78D7D;
+}
+body {
+	margin: 30px;
+	margin-left: 120px;
+	font: 15px Helvetica, serif;
+	background-color: #CFC8B5;
+	text-align: left;
+}
+div.photo {
+	background-color: #62868D;
+	padding: 3px;
+	border: 1px solid #462066;
+	border-radius: 5px;
+}
+div.photobox {
+	background-color: #62868D;
+	max-width: 400px;
+	padding: 2px;
+	border: 1px solid #462066;
+	border-radius: 5px;
+}
+div.norm {
+	background-color: #62868D;
+	padding: 3px;
+	width: 200px;
+	max-width: 800px;
+	height: auto;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: large;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #462066;
+	border-radius: 10px;
+}
+a, a:active, a:link, a:visited {
+	color: #F9F3E3;
+}
+a:hover {
+	color: #D78B7D
+}
+p.emph {
+	font-size: large;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}

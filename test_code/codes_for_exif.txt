@@ -1,0 +1,9 @@
+306 - DateTime :
+2015:01:07 17:28:30
+
+274 - Orientation :
+6
+
+36867 - DateTimeOriginal :
+2015:01:07 17:28:30
+

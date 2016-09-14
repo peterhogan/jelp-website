@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Random</title>
+<link rel="stylesheet" type="text/css" href="/static/photos/css/style1.css">
+<style>
+body {
+	text-align: left;
+}
+a.button {
+	text-align: right;
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+</style>
+</head>
+
+<body>
+<div class='logout'><a class="header" href="{% url 'photos:logout' %}">Logout</a></div>
+
+<div class='header'>
+<ul class='bar'>
+	<li class="header">Logged in as {{ username }}</li>
+	<li class='header'><a class='header' href="{% url 'photos:home' %}">Home</a></li>
+        <li class='header'>></li>
+	<li class='header'><a class='header' href="{% url 'photos:random' %}">Random</a></li>
+</ul>
+</div>
+
+<div class='bar'>
+<ul class="bar">
+	<li class="bar"><a class="bar" href="{% url 'photos:home' %}">Home</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:years' %}">Years</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:random' %}">Random</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:latest' %}">Latest</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:logout' %}">Logout</a></li>
+</ul>
+</div>
+
+<h1>View a random photo!</h1>
+
+<h4>Photo from {{ month }} {{ year }}.</h4>
+<p>Details:</br>
+Date Taken: {{ date }}</br>
+Time Taken: {{ time }}</br>
+Orientation: {{ ori }}</br>
+</p>
+<div class='photobox'>
+<a class='button' href='{% url "photos:random" %}'>Go again!</a>
+<a href='/static/photos/{{ title }}'><img src='/static/photos/{{ title }}' width='400px' ></a>
+</div>
+
+
+</body>
+
+</html>

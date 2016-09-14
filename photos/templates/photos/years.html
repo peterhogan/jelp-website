@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Years View</title>
+<link rel="stylesheet" type="text/css" href="/static/photos/css/style1.css">
+<style>
+li.horiz {
+	display: inline;
+}
+</style>
+</head>
+
+<body>
+
+<div class='logout'><a class="header" href="{% url 'photos:logout' %}">Logout</a></div>
+
+<div class='bar'>
+<ul class="bar">
+        <li class="bar"><a class="bar" href="{% url 'photos:home' %}">Home</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:years' %}">Years</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:random' %}">Random</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:latest' %}">Latest</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:logout' %}">Logout</a></li>
+</ul>
+</div>
+
+<div class='header'>
+<ul class='bar'>
+        <li class="header">Logged in as {{ username }}</li>
+        <li class='header'><a class='header' href="{% url 'photos:home' %}">Home</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:years' %}">Years</a></li>
+</ul>
+</div>
+
+<h2>Pictures by Year</h2>
+
+<p>Please select a year to look at:</p>
+
+<div class="norm">
+<ul> 
+{% for year,photo in photos_with_years %}
+	<li class="header">
+		<li><a href="{% url 'photos:months' year %}">{{ year }}</a></li>
+		<li class="header"><a href="{% url 'photos:months' year %}"><img src="/static/photos/thumbnails/{{ photo.title }}"></a></li>
+	</li>
+{% endfor %}
+</ul>
+</div>
+
+</body>
+
+</html>

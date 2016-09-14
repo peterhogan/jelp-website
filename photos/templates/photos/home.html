@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="/static/photos/css/style1.css">
+<style>
+body {
+	text-align: left;
+}
+</style>
+</head>
+
+<body>
+
+<div class='logout'><a class="header" href="{% url 'photos:logout' %}">Logout</a></div>
+
+<div class='header'>
+<ul class='bar'>
+	<li class="header">Logged in as {{ username }}</li>
+	<li class='header'><a class='header' href="{% url 'photos:home' %}">Home</a></li>
+</ul>
+</div>
+
+<div class='bar'>
+<ul class="bar">
+	<li class="bar"><a class="bar" href="{% url 'photos:home' %}">Home</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:years' %}">Years</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:random' %}">Random</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:latest' %}">Latest</a></li>
+	<li class="bar"><a class="bar" href="{% url 'photos:logout' %}">Logout</a></li>
+</ul>
+</div>
+
+<h1> Hello {{ username }}! </h1>
+Welcome to photos!
+</br>
+<a class="on_bg" href='{% url "photos:years" %}'>Let me see some photos!!</a>
+<h2>Recent Site Activity</h2>
+<p>Recently the site has been made! Check for new photos every weekend as they are uploaded on friday nights.</p>
+
+<h3>Years</h3>
+<p>Find photos sorted by year and month they were taken.</p>
+<h3>Random</h3>
+<p>See a random photo from all photos.</p>
+<h3>Latest</h3>
+<p>The 20 most recently uploaded photos on the site.</p>
+<!--<h3>Popular</h3>
+See the photos that people have liked.
+<h3>Favourites</h3>
+Look at your favourite photos you've added.--!>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+for i in all_file_paths:
+	if ori == 6:
+		img.rotate(270).save(i)
+	img.thumbnail(size).save(os.path.split(i)[0]+'/thumbnails/'+os.path.split[1])
+
+

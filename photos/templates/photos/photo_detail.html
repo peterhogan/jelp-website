@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ title }} from {{ month }} {{ year }}</title>
+<link rel="stylesheet" type="text/css" href="/static/photos/css/style1.css">
+</head>
+<body>
+<div class='logout'><a class="header" href="{% url 'photos:logout' %}">Logout</a></div>
+
+<div class='bar'>
+<ul class="bar">
+        <li class="bar"><a class="bar" href="{% url 'photos:home' %}">Home</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:years' %}">Years</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:random' %}">Random</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:latest' %}">Latest</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:logout' %}">Logout</a></li>
+</ul>
+</div>
+
+<div class='header'>
+<ul class='bar'>
+        <li class="header">Logged in as {{ username }}</li>
+        <li class='header'><a class='header' href="{% url 'photos:home' %}">Home</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:years' %}">Years</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:months' year %}">{{ year }}</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:photos' year month %}">{{ month }}</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:photo_detail' year month title %}">{{ title }}</a></li>
+</ul>
+</div>
+
+
+<p>You are looking at {{ title }} in {{ month }} {{ year }}.</p>
+<p class='emph'>Details:</p>
+<p>
+Date Taken: {{ date }}</br>
+Time Taken: {{ time }}</br>
+Orientation: {{ ori }}</br>
+</p>
+
+<div class='photobox'>
+<a href='/static/photos/{{ title }}'><img src='/static/photos/{{ title }}' width='400px' ></a>
+</div>
+
+</body>
+</html>

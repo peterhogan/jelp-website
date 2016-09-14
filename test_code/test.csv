@@ -1,0 +1,52 @@
+title,date_created,time_created,datetime_created,orientation,path
+2013-11-30_18.13.40.jpg,2013:11:30,18:13:40,2013:11:30 18:13:40,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_18.13.40.jpg
+2015-01-04 13.03.10.jpg,2015:01:04,13:03:10,2015:01:04 13:03:10,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-04 13.03.10.jpg
+2013-11-30_16.01.30.jpg,2013:11:30,16:01:30,2013:11:30 16:01:30,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_16.01.30.jpg
+2013-11-30_17.47.56.jpg,2013:11:30,17:47:56,2013:11:30 17:47:56,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.47.56.jpg
+2013-11-30_10.29.26.jpg,2013:11:30,10:29:26,2013:11:30 10:29:26,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_10.29.26.jpg
+2013-11-30_10.27.18.jpg,2013:11:30,10:27:18,2013:11:30 10:27:18,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_10.27.18.jpg
+2013-11-30_18.31.34.jpg,2013:11:30,18:31:34,2013:11:30 18:31:34,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_18.31.34.jpg
+2013-11-30_15.32.16.jpg,2013:11:30,15:32:16,2013:11:30 15:32:16,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.32.16.jpg
+2013-11-30_18.13.21.jpg,2013:11:30,18:13:21,2013:11:30 18:13:21,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_18.13.21.jpg
+2015-01-04 13.02.55.jpg,2015:01:04,13:02:55,2015:01:04 13:02:55,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-04 13.02.55.jpg
+2013-11-30_15.31.59.jpg,2013:11:30,15:31:59,2013:11:30 15:31:59,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.31.59.jpg
+2013-11-30_15.31.17.jpg,2013:11:30,15:31:17,2013:11:30 15:31:17,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.31.17.jpg
+2015-01-03 10.53.45.jpg,2015:01:03,10:53:45,2015:01:03 10:53:45,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-03 10.53.45.jpg
+2015-01-04 13.03.01.jpg,2015:01:04,13:03:01,2015:01:04 13:03:01,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-04 13.03.01.jpg
+2013-11-30_15.32.25.jpg,2013:11:30,15:32:25,2013:11:30 15:32:25,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.32.25.jpg
+2013-11-30_16.01.27.jpg,2013:11:30,16:01:27,2013:11:30 16:01:27,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_16.01.27.jpg
+2013-11-30_16.01.19.jpg,2013:11:30,16:01:19,2013:11:30 16:01:19,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_16.01.19.jpg
+2015-01-07 17.28.30.jpg,2015:01:07,17:28:30,2015:01:07 17:28:30,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-07 17.28.30.jpg
+2013-11-30_17.46.44.jpg,2013:11:30,17:46:44,2013:11:30 17:46:44,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.46.44.jpg
+2013-11-30_17.53.36.jpg,2013:11:30,17:53:36,2013:11:30 17:53:36,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.53.36.jpg
+2013-11-30_18.13.26.jpg,2013:11:30,18:13:26,2013:11:30 18:13:26,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_18.13.26.jpg
+2013-11-30_17.53.40.jpg,2013:11:30,17:53:40,2013:11:30 17:53:40,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.53.40.jpg
+2013-11-30_18.31.27.jpg,2013:11:30,18:31:27,2013:11:30 18:31:27,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_18.31.27.jpg
+2013-11-30_17.47.30.jpg,2013:11:30,17:47:30,2013:11:30 17:47:30,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.47.30.jpg
+2015-01-03 10.53.42.jpg,2015:01:03,10:53:42,2015:01:03 10:53:42,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-03 10.53.42.jpg
+2013-11-30_18.13.23.jpg,2013:11:30,18:13:23,2013:11:30 18:13:23,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_18.13.23.jpg
+2015-01-03 10.53.44.jpg,2015:01:03,10:53:44,2015:01:03 10:53:44,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-03 10.53.44.jpg
+2013-11-30_15.32.20.jpg,2013:11:30,15:32:20,2013:11:30 15:32:20,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.32.20.jpg
+2013-11-30_15.32.37.jpg,2013:11:30,15:32:37,2013:11:30 15:32:37,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.32.37.jpg
+2013-11-30_15.31.22.jpg,2013:11:30,15:31:22,2013:11:30 15:31:22,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.31.22.jpg
+2013-11-30_15.32.41.jpg,2013:11:30,15:32:41,2013:11:30 15:32:41,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.32.41.jpg
+2013-11-30_15.32.23.jpg,2013:11:30,15:32:23,2013:11:30 15:32:23,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.32.23.jpg
+2013-11-30_15.31.54.jpg,2013:11:30,15:31:54,2013:11:30 15:31:54,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.31.54.jpg
+2013-11-30_18.17.42.jpg,2013:11:30,18:17:42,2013:11:30 18:17:42,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_18.17.42.jpg
+jasper1.jpg,2014:12:21,14:17:39,2014:12:21 14:17:39,1,/home/pine/python/django/mysite2/photos/static/photos/jasper1.jpg
+2013-11-30_10.29.32.jpg,2013:11:30,10:29:32,2013:11:30 10:29:32,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_10.29.32.jpg
+2013-11-30_15.32.39.jpg,2013:11:30,15:32:39,2013:11:30 15:32:39,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.32.39.jpg
+2013-11-30_15.31.56.jpg,2013:11:30,15:31:56,2013:11:30 15:31:56,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_15.31.56.jpg
+2015-01-04 13.02.58.jpg,2015:01:04,13:02:58,2015:01:04 13:02:58,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-04 13.02.58.jpg
+2015-01-07 17.28.19.jpg,2015:01:07,17:28:19,2015:01:07 17:28:19,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-07 17.28.19.jpg
+2013-11-30_17.53.59.jpg,2013:11:30,17:53:59,2013:11:30 17:53:59,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.53.59.jpg
+2015-01-04 13.02.59.jpg,2015:01:04,13:02:59,2015:01:04 13:02:59,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-04 13.02.59.jpg
+2013-11-30_10.29.37.jpg,2013:11:30,10:29:37,2013:11:30 10:29:37,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_10.29.37.jpg
+2013-11-30_17.53.32.jpg,2013:11:30,17:53:32,2013:11:30 17:53:32,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.53.32.jpg
+2013-11-30_16.01.16.jpg,2013:11:30,16:01:16,2013:11:30 16:01:16,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_16.01.16.jpg
+2015-01-04 13.02.54.jpg,2015:01:04,13:02:54,2015:01:04 13:02:54,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-04 13.02.54.jpg
+2013-11-30_10.27.23.jpg,2013:11:30,10:27:23,2013:11:30 10:27:23,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_10.27.23.jpg
+2015-01-03 10.53.46.jpg,2015:01:03,10:53:46,2015:01:03 10:53:46,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-03 10.53.46.jpg
+2015-01-04 13.03.03.jpg,2015:01:04,13:03:03,2015:01:04 13:03:03,6,/home/pine/python/django/mysite2/photos/static/photos/2015-01-04 13.03.03.jpg
+2013-11-30_17.53.27.jpg,2013:11:30,17:53:27,2013:11:30 17:53:27,6,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_17.53.27.jpg
+2013-11-30_10.27.11.jpg,2013:11:30,10:27:11,2013:11:30 10:27:11,1,/home/pine/python/django/mysite2/photos/static/photos/2013-11-30_10.27.11.jpg

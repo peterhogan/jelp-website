@@ -1,0 +1,4 @@
+What do I need:
+
+ - Website Structure: how the pages are laid out and which pages are there (at least initially).
+ - 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Photos from {{ month }} {{ year }}</title>
+<link rel="stylesheet" type="text/css" href="/static/photos/css/style1.css">
+</head>
+<body>
+
+<div class='logout'><a class="header" href="{% url 'photos:logout' %}">Logout</a></div>
+
+<div class='bar'>
+<ul class="bar">
+        <li class="bar"><a class="bar" href="{% url 'photos:home' %}">Home</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:years' %}">Years</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:random' %}">Random</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:latest' %}">Latest</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:logout' %}">Logout</a></li>
+</ul>
+</div>  
+
+<div class='header'>
+<ul class='bar'>
+        <li class="header">Logged in as {{ username }}</li>
+        <li class='header'><a class='header' href="{% url 'photos:home' %}">Home</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:years' %}">Years</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:months' year %}">{{ year }}</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'photos:photos' year month %}">{{ month }}</a></li>
+</ul>
+</div>
+
+
+<h3>{{ year }} - {{ month }}</h3>
+<p><a class='on_bg' href='{% url "photos:years" %}'>Back to all years</a></br>
+<a class='on_bg' href='{% url "photos:months" year %}'>Back to {{ year }} photos</a>
+</p>
+
+<div class='photo'>
+{% if photo_paths %}
+    {% for photo in photo_paths %}
+        <a href='{% url "photos:photo_detail" year month photo %}'><img src='/static/photos/thumbnails/{{ photo }}' ></a>
+    {% endfor %}
+{% else %}
+    <p>No photos were found.</p>
+{% endif %}
+</div>
+
+</body>
+</html>
+        <!--<a href='/static/photos/{{ photo }}'><img src='/static/photos/thumbnails/{{ photo }}' ></a>--!>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Logout</title>
+<link rel="stylesheet" type="text/css" href="/static/photos/css/style1.css">
+</head>
+<body>
+
+<div class='bar'>
+<ul class="bar">
+        <li class="bar"><a class="bar" href="{% url 'photos:home' %}">Home</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:years' %}">Years</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:random' %}">Random</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:latest' %}">Latest</a></li>
+        <li class="bar"><a class="bar" href="{% url 'photos:home' %}">Logout</a></li>
+</ul>
+</div>
+
+<div class='header'>
+<ul class='bar'>
+        <li class="header">Logged in as</li>
+        <li class='header'><a class='header' href="{% url 'photos:home' %}">Home</a></li>
+        <li class='header'>></li>
+        <li class="header"><a class="header" href="{% url 'login:logout' %}">Logout</a></li>
+</ul>
+</div>
+
+You have been logged out.</br>
+<a href="{% url 'login:login' %}">Log back in again</a>
+
+</body>
+</html>

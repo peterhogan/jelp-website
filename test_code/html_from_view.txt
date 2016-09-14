@@ -1,0 +1,18 @@
+def photos(request):
+
+        files_jpg = '/home/pine/python/django/mysite2/photos/static/photos/'#*.jpg'
+
+        #photo_paths = glob(files_jpg)
+        photo_paths = listdir(files_jpg)
+        photo_names = [basename(file) for file in photo_paths]
+
+        random_photo = photo_names[randint(0,len(photo_names)-1)]
+
+        html_pic = "<html><body><a href='/static/photos/%s'><img src='/static/photos/%s' style='height:500px;'></a></body></html>" % (random_photo,random_photo)
+        html_pic2 = "<html><body><img src='/static/photos/jasper1.jpg' style='width:404px;height:228px;'></body></html>"
+        html_pic3 = "<html><body>%s</body></html>" % photo_paths
+
+        context = {'photo_paths': photo_paths}
+        return render(request, 'photos/photos.html', context)
+
+        #return HttpResponse(html_pic)
